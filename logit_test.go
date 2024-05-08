@@ -39,9 +39,9 @@ func TestSetTimeFormat(t *testing.T) {
 
     for _, tt := range tests {
         t.Run(tt.name, func(t *testing.T) {
-            outFormat = OutFormatDefault
+            timeFormat = OutFormatDefault
             SetTimeFormat(tt.newFormat)
-            assert.Equal(t, tt.newFormat, outFormat)
+            assert.Equal(t, tt.newFormat, timeFormat)
         })
     }
 }

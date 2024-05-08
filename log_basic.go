@@ -24,12 +24,12 @@ func Err(format string, a ...interface{}) {
     printLine(logTypeError, fmt.Sprintf(format, a...))
 }
 
-func Error(message string, err error) {
+func Error(err error, format string, a ...interface{}) {
+    msg := fmt.Sprintf(format, a...)
     if err == nil {
         err = fmt.Errorf("no error found")
     }
-
-    printLine(logTypeError, fmt.Sprintf("%s: %s", message, err.Error()))
+    printLine(logTypeError, fmt.Sprintf("%s: %s", msg, err.Error()))
 }
 
 func DebugData(title string, data any) {

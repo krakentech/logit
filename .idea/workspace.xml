@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3f75effe-7d81-4c1c-b2d3-7f43a976605e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< Updated upstream
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_basic.go" beforeDir="false" afterPath="$PROJECT_DIR$/log_basic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_basic_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/log_basic_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/logit_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-=======
->>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +48,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultGoTemplateProperty": "Go File",
+    "Go Build.go build github.com/krakentech/logit.executor": "Coverage",
     "Go Test.TestDebug in github.com/krakentech/logit.executor": "Run",
     "Go Test.TestDebugData in github.com/krakentech/logit.executor": "Coverage",
     "Go Test.TestDebugData/fail_to_marshal_data in github.com/krakentech/logit.executor": "Run",
+    "Go Test.TestErr/err_test_debug_off in github.com/krakentech/logit.executor": "Run",
+    "Go Test.TestError in github.com/krakentech/logit.executor": "Coverage",
+    "Go Test.TestError/err_test__pattern_and_values in github.com/krakentech/logit.executor": "Run",
     "Go Test.TestError/err_test_debug_off in github.com/krakentech/logit.executor": "Run",
+    "Go Test.TestError/err_test_only_pattern in github.com/krakentech/logit.executor": "Run",
+    "Go Test.TestError/error_test_debug_off in github.com/krakentech/logit.executor": "Run",
     "Go Test.TestError/error_test_nil_error in github.com/krakentech/logit.executor": "Run",
     "Go Test.TestSetOutFormat in github.com/krakentech/logit.executor": "Run",
     "Go Test.go test github.com/krakentech/logit.executor": "Coverage",
@@ -61,7 +68,7 @@
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "release/v1.0",
+    "git-widget-placeholder": "readme__creation",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
     "last_opened_file_path": "/Volumes/Code/krakentech/go_modules/logit",
@@ -73,19 +80,16 @@
     "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
-  <component name="RunManager" selected="Go Test.TestSetOutFormat in github.com/krakentech/logit">
-    <configuration name="TestDebugData in github.com/krakentech/logit" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test logit">
+    <configuration name="go build github.com/krakentech/logit" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="_kt_template" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <package value="github.com/krakentech/logit" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestDebugData\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestDebugData/fail_to_marshal_data in github.com/krakentech/logit" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestError in github.com/krakentech/logit" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="_kt_template" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -93,10 +97,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestDebugData\E$/^\Qfail_to_marshal_data\E$" />
+      <pattern value="^\QTestError\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSetOutFormat in github.com/krakentech/logit" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestError/err_test__pattern_and_values in github.com/krakentech/logit" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="_kt_template" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -104,7 +108,7 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestSetOutFormat\E$" />
+      <pattern value="^\QTestError\E$/^\Qerr_test__pattern_and_values\E$" />
       <method v="2" />
     </configuration>
     <configuration name="go test github.com/krakentech/logit" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -121,7 +125,6 @@
       <module name="_kt_template" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="DIRECTORY" />
-      <package value="github.com/krakentech/logit" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -129,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestSetOutFormat in github.com/krakentech/logit" />
         <item itemvalue="Go Test.go test logit" />
-        <item itemvalue="Go Test.TestDebugData in github.com/krakentech/logit" />
-        <item itemvalue="Go Test.TestDebugData/fail_to_marshal_data in github.com/krakentech/logit" />
+        <item itemvalue="Go Build.go build github.com/krakentech/logit" />
         <item itemvalue="Go Test.go test github.com/krakentech/logit" />
+        <item itemvalue="Go Test.TestError in github.com/krakentech/logit" />
+        <item itemvalue="Go Test.TestError/err_test__pattern_and_values in github.com/krakentech/logit" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +148,10 @@
     <settings-migrated>true</settings-migrated>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+<<<<<<< HEAD
+    <SUITE FILE_PATH="coverage/logit$go_test_github_com_krakentech_logit.out" NAME="go test github.com/krakentech/logit Coverage Results" MODIFIED="1715172749136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/logit$go_test_logit.out" NAME="go test logit Coverage Results" MODIFIED="1715183044752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+=======
 <<<<<<< Updated upstream
     <SUITE FILE_PATH="coverage/logit$go_test_github_com_krakentech_logit.out" NAME="go test github.com/krakentech/logit Coverage Results" MODIFIED="1715021387552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/logit$go_test_logit.out" NAME="go test logit Coverage Results" MODIFIED="1715022385037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -152,7 +159,10 @@
     <SUITE FILE_PATH="coverage/logit$go_test_github_com_krakentech_logit.out" NAME="go test github.com/krakentech/logit Coverage Results" MODIFIED="1715172749136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/logit$go_test_logit.out" NAME="go test logit Coverage Results" MODIFIED="1715183095295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
 >>>>>>> Stashed changes
+>>>>>>> release/v1.0
     <SUITE FILE_PATH="coverage/logit$TestDebugData_in_github_com_krakentech_logit.out" NAME="TestDebugData in github.com/krakentech/logit Coverage Results" MODIFIED="1715021795939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/logit$go_build_github_com_krakentech_logit.out" NAME="go build github.com/krakentech/logit Coverage Results" MODIFIED="1715180616765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/logit$TestError_in_github_com_krakentech_logit.out" NAME="TestError in github.com/krakentech/logit Coverage Results" MODIFIED="1715172731577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/logit$gobench_github_com_krakentech_logit.out" NAME="gobench github.com/krakentech/logit Coverage Results" MODIFIED="1715009138743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

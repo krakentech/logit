@@ -105,15 +105,17 @@ func TestError(t *testing.T) {
     type LogItTest struct {
         Name    string
         Debug   bool
+        Error   error
         Pattern string
-        Values  error
+        Values  []any
         Err     error
         Want    string
     }
 
     tests := []LogItTest{
-        {Name: "error test debug off", Pattern: "test value", Values: fmt.Errorf("this is a test"), Err: nil, Want: "00.00.00-00:00:00   🛑 - test value: this is a test\n"},
-        {Name: "error test nil error", Pattern: "test value", Debug: true, Values: nil, Err: nil, Want: "00.00.00-00:00:00   🛑 - test value: no error found\n"},
+        {Name: "error test debug off", Pattern: "test value", Values: []any{}, Err: nil, Want: "00.00.00-00:00:00   🛑 - test value: no error found\n"},
+        {Name: "err test only pattern", Error: fmt.Errorf("im an error"), Pattern: "test value", Values: []any{}, Err: nil, Want: "00.00.00-00:00:00   🛑 - test value: im an error\n", Debug: true},
+        {Name: "err test  pattern and values", Error: fmt.Errorf("im an error"), Pattern: "the number is %d", Values: []any{123}, Err: nil, Want: "00.00.00-00:00:00   🛑 - the number is 123: im an error\n", Debug: true},
     }
 
     var buf bytes.Buffer
@@ -122,7 +124,7 @@ func TestError(t *testing.T) {
     for _, tt := range tests {
         t.Run(tt.Name, func(t *testing.T) {
             IsDebug(tt.Debug)
-            Error(tt.Pattern, tt.Values)
+            Error(tt.Error, tt.Pattern, tt.Values...)
             assert.Equal(t, tt.Want, buf.String())
             buf.Reset()
         })
