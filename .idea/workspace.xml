@@ -10,6 +10,7 @@
       <change beforePath="$PROJECT_DIR$/log_basic.go" beforeDir="false" afterPath="$PROJECT_DIR$/log_basic.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log_basic_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/log_basic_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/logit_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,8 +148,18 @@
     <settings-migrated>true</settings-migrated>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/logit$go_test_github_com_krakentech_logit.out" NAME="go test github.com/krakentech/logit Coverage Results" MODIFIED="1715172749136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/logit$go_test_logit.out" NAME="go test logit Coverage Results" MODIFIED="1715183044752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+=======
+<<<<<<< Updated upstream
+    <SUITE FILE_PATH="coverage/logit$go_test_github_com_krakentech_logit.out" NAME="go test github.com/krakentech/logit Coverage Results" MODIFIED="1715021387552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/logit$go_test_logit.out" NAME="go test logit Coverage Results" MODIFIED="1715022385037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+=======
+    <SUITE FILE_PATH="coverage/logit$go_test_github_com_krakentech_logit.out" NAME="go test github.com/krakentech/logit Coverage Results" MODIFIED="1715172749136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/logit$go_test_logit.out" NAME="go test logit Coverage Results" MODIFIED="1715183095295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+>>>>>>> Stashed changes
+>>>>>>> release/v1.0
     <SUITE FILE_PATH="coverage/logit$TestDebugData_in_github_com_krakentech_logit.out" NAME="TestDebugData in github.com/krakentech/logit Coverage Results" MODIFIED="1715021795939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/logit$go_build_github_com_krakentech_logit.out" NAME="go build github.com/krakentech/logit Coverage Results" MODIFIED="1715180616765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/logit$TestError_in_github_com_krakentech_logit.out" NAME="TestError in github.com/krakentech/logit Coverage Results" MODIFIED="1715172731577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
