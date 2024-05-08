@@ -15,13 +15,11 @@
 go get github.com/krakentech/logit@latest
 ```
 
-## Usage
-
-### Setup
+## Setup
 
 When you set a few options to customize your experience. These can be changed at any time.
 
-#### IsDebug
+### IsDebug
 
 If debug is set to true debug messages will be printed
 
@@ -29,7 +27,7 @@ If debug is set to true debug messages will be printed
 logit.IsDebug(true)
 ```
 
-#### SetOutFormat
+### SetOutFormat
 
 You can change the output pattern of the message. The default pattern is ```{{time}} {{prefix}}  {{type}} - {{message}}``` here are a list of current properties you can use in your own pattern.
 
@@ -42,13 +40,85 @@ You can change the output pattern of the message. The default pattern is ```{{ti
 
 ***Note:*** Please create an issue with other suggestions as this is what was needed at the time of writing.
 
-#### SetTimeFormat
+### SetTimeFormat
 
 You can change the format of the date/time printed. The default is ```06.02.01-15:04:05``` and to make it custom just use standard time formatting for golang.
 
-#### SetWriter
+### SetWriter
 
 Change where the logs as sent. This takes any io.Writer
 
-### Code Usage
+## Usage
+
+Below is an example of how to use logit. Most functions are basically like "fmt.Print" but adds some decorations and formatting.
+
+### Debug
+
+```golang
+Debug("the number is %d", 123)
+```
+
+```bash
+00.00.00-00:00:00   🐛 - the number is 123
+```
+
+***Note:*** Debug must be set true otherwise nothing will print
+
+### Info
+
+```golang
+Info("the number is %d", 123)
+```
+
+```bash
+00.00.00-00:00:00   🧠 - the number is 123
+```
+
+### Warn
+
+```golang
+Warn("the number is %d", 123)
+```
+
+```bash
+00.00.00-00:00:00   🚧 - the number is 123
+```
+
+### Err
+
+```golang
+Err("the number is %d", 123)
+```
+
+```bash
+00.00.00-00:00:00   🛑 - the number is 123
+```
+
+
+### Error
+
+Is a little different than err in that it takes an error and adds its message to the end 
+
+```golang
+Error(fmt.Error("i have failed"), "the number is %d", 123)
+```
+
+```bash
+00.00.00-00:00:00   🛑 - the number is 123: i have failed
+```
+
+### DebugData
+
+```golang
+DebugData("My Object", myObject)
+```
+
+```bash
+00.00.00-00:00:00  🧶 - ====================================================================[My Object]=
+{
+  "name": "john smith",
+  "age": 55
+}
+00.00.00-00:00:00  🧶 - ================================================================================
+```
 
