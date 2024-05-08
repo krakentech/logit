@@ -5,7 +5,7 @@
 </picture>
 
 ![GitHub Release](https://img.shields.io/github/v/release/krakentech/logit)
-![Coverage](https://img.shields.io/badge/Coverage-66.7%25-yellow)
+![Coverage](https://img.shields.io/badge/Coverage-94.3%25-brightgreen)
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/krakentech/logit)
 ![GitHub License](https://img.shields.io/github/license/krakentech/logit)
 
