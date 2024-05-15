@@ -17,7 +17,7 @@ var (
     prefix               = ""
     w          io.Writer = os.Stdout
     printLf              = fmt.Fprintln
-    isTesting            = false
+    IsTesting            = false
 )
 
 // SetWriter will update where the logging is written
@@ -41,7 +41,7 @@ func printLine(lType logType, msg string) {
     out := outFormat
 
     logTime := time.Now().Format(timeFormat)
-    if isTesting {
+    if IsTesting {
         logTime = "00.00.00-00:00:00"
     }
 

@@ -27,7 +27,7 @@ func TestDebug(t *testing.T) {
 
     var buf bytes.Buffer
     SetWriter(&buf)
-    isTesting = true
+    IsTesting = true
     for _, tt := range tests {
         t.Run(tt.Name, func(t *testing.T) {
             IsDebug(tt.Debug)
@@ -48,7 +48,7 @@ func TestInfo(t *testing.T) {
 
     var buf bytes.Buffer
     SetWriter(&buf)
-    isTesting = true
+    IsTesting = true
     for _, tt := range tests {
         t.Run(tt.Name, func(t *testing.T) {
             IsDebug(tt.Debug)
@@ -69,7 +69,7 @@ func TestWarn(t *testing.T) {
 
     var buf bytes.Buffer
     SetWriter(&buf)
-    isTesting = true
+    IsTesting = true
     for _, tt := range tests {
         t.Run(tt.Name, func(t *testing.T) {
             IsDebug(tt.Debug)
@@ -90,7 +90,7 @@ func TestErr(t *testing.T) {
 
     var buf bytes.Buffer
     SetWriter(&buf)
-    isTesting = true
+    IsTesting = true
     for _, tt := range tests {
         t.Run(tt.Name, func(t *testing.T) {
             IsDebug(tt.Debug)
@@ -120,7 +120,7 @@ func TestError(t *testing.T) {
 
     var buf bytes.Buffer
     SetWriter(&buf)
-    isTesting = true
+    IsTesting = true
     for _, tt := range tests {
         t.Run(tt.Name, func(t *testing.T) {
             IsDebug(tt.Debug)
@@ -150,7 +150,7 @@ func TestDebugData(t *testing.T) {
 
     var buf bytes.Buffer
     SetWriter(&buf)
-    isTesting = true
+    IsTesting = true
     for _, tt := range tests {
         t.Run(tt.Name, func(t *testing.T) {
             IsDebug(tt.Debug)
