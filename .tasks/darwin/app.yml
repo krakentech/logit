@@ -1,0 +1,15 @@
+# https://taskfile.dev
+version: '3'
+
+tasks:
+  run:
+    desc: run the application in dev mode (if available)
+    cmds:
+      - go run . -d
+    silent: true
+
+  test:
+    desc: run tests
+    cmds:
+      - go test -v ./...
+    silent: true
