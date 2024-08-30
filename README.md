@@ -11,3 +11,15 @@
 
 
 
+## About
+
+Logit is a simple logging package.
+
+## Installation
+
+## Usage
+
+### Basic
+
+### Additional Settings  
+

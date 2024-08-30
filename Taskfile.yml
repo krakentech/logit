@@ -6,6 +6,7 @@ includes:
   branch: ./.tasks/{{OS}}/branch.yml
   utils:  ./.tasks/{{OS}}/utils.yml
   app: ./.tasks/{{OS}}/app.yml
+  mod: ./.tasks/{{OS}}/model.yml
 
 tasks:
 
