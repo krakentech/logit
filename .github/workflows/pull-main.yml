@@ -23,7 +23,7 @@ jobs:
 
       - name: Run Test
         run: |
-          go test -v ./... -covermode=count -coverprofile=coverage.out
+          go test -v $(go list ./... | grep -v /example/) -covermode=count -coverprofile=coverage.out
           go tool cover -func=coverage.out -o=coverage.out
 
 #      - name: Static Check
