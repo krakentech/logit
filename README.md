@@ -11,3 +11,19 @@
 
 
 
+## About
+
+Logit is a simple logging package.
+
+## Installation
+
+```shell
+go get github.com/krakentech/logit@latest 
+```
+
+## Usage
+
+### Basic
+
+### Additional Settings  
+

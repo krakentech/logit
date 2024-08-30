@@ -3,13 +3,8 @@ version: '3'
 
 tasks:
   run:
-    desc: run the application in dev mode (if available)
+    desc: run the example app
+    dir: ./example
     cmds:
       - go run . -d
-    silent: true
-
-  test:
-    desc: run tests
-    cmds:
-      - go test -v ./...
     silent: true
