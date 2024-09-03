@@ -4,10 +4,10 @@
     <img src="./res/readme-topper-light.jpg" />
 </picture>
 
-![GitHub Release](https://img.shields.io/github/v/release/krakentech/_golang_templates)
+![GitHub Release](https://img.shields.io/github/v/release/krakentech/logit)
 ![Coverage](https://img.shields.io/badge/Coverage-95.0%25-brightgreen)
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/krakentech/_golang_templates)
-![GitHub License](https://img.shields.io/github/license/krakentech/_golang_templates)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/krakentech/logit)
+![GitHub License](https://img.shields.io/github/license/krakentech/logit)
 
 
 
