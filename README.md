@@ -6,3 +6,15 @@
 
 ![Static Badge](https://img.shields.io/badge/Release-v0.0.0-green)
 ![Coverage](https://img.shields.io/badge/Coverage-0.0%25-yellow)
+
+## Overview
+
+Logit is a quick module to simplify basic logging with some extra flair.
+
+## Installation
+
+```bash
+go get github.com/krakentech/logit@latest
+```
+
+
