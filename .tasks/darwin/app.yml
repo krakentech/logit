@@ -1,0 +1,15 @@
+# https://taskfile.dev
+version: '3'
+
+tasks:
+  run:
+    desc: Run Application
+    cmds:
+      - go run . -d
+    silent: true
+
+  test:
+    desc: Run Tests
+    cmds:
+      - go test -v ./...
+    silent: true
