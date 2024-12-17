@@ -16,8 +16,7 @@ func main() {
 
     logitv2.Debug("you should not see this")
     logitv2.SetIsDebug(true)
-    logitv2.Debug("you should see this")
-
+    logitv2.Debug("This is an %s line", "debug")
     logitv2.Info("This is an %s line", "info")
     logitv2.Warn("This is an %s line", "warning")
     logitv2.Err("This is an %s line", "error")
