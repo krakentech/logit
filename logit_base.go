@@ -8,7 +8,6 @@ import (
 
 // Debug works just like fmt.Println but will add some extra context
 func Debug(format string, a ...interface{}) {
-    fmt.Printf("[DEBUG] %t\n", isDebug)
     if isDebug {
         printLine(logTypeDebug, fmt.Sprintf(format, a...))
     }
