@@ -8,7 +8,7 @@ import (
     "time"
 )
 
-const Version = "v1.0.0"
+const Version = "v1.0.1"
 
 var (
     isDebug              = false
