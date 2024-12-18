@@ -11,9 +11,7 @@ type TestItem struct {
 }
 
 func main() {
-
     myTestItem := TestItem{Name: "john", Age: 21}
-
     logitv2.Debug("you should not see this")
     logitv2.SetIsDebug(true)
     logitv2.Debug("This is an %s line", "debug")
@@ -23,5 +21,4 @@ func main() {
     logitv2.Error(fmt.Errorf("this is the error message"), "This is an %s line", "error")
     logitv2.DebugData("data as json", myTestItem)
     logitv2.DebugDataFormated("data as json formated", myTestItem)
-
 }
