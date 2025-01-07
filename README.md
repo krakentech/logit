@@ -4,7 +4,7 @@
     <img src="./res/readme-topper-light.jpg" />
 </picture>
 
-![Static Badge](https://img.shields.io/badge/Release-v1.0.0-green)
+![Static Badge](https://img.shields.io/badge/Release-v1.0.2-green)
 ![Coverage](https://img.shields.io/badge/Coverage-96.1%25-brightgreen)
 
 ## Overview
