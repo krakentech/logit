@@ -1,4 +1,4 @@
-package logitv2
+package logit
 
 const (
     OutFormatDefault  = "{{time}} {{type}} - {{message}}"

@@ -2,7 +2,7 @@ package main
 
 import (
     "fmt"
-    "github.com/krakentech/logitv2"
+    "github.com/krakentech/logit"
 )
 
 type TestItem struct {
@@ -12,13 +12,13 @@ type TestItem struct {
 
 func main() {
     myTestItem := TestItem{Name: "john", Age: 21}
-    logitv2.Debug("you should not see this")
-    logitv2.SetIsDebug(true)
-    logitv2.Debug("This is an %s line", "debug")
-    logitv2.Info("This is an %s line", "info")
-    logitv2.Warn("This is an %s line", "warning")
-    logitv2.Err("This is an %s line", "error")
-    logitv2.Error(fmt.Errorf("this is the error message"), "This is an %s line", "error")
-    logitv2.DebugData("data as json", myTestItem)
-    logitv2.DebugDataFormated("data as json formated", myTestItem)
+    logit.Debug("you should not see this")
+    logit.SetIsDebug(true)
+    logit.Debug("This is an %s line", "debug")
+    logit.Info("This is an %s line", "info")
+    logit.Warn("This is an %s line", "warning")
+    logit.Err("This is an %s line", "error")
+    logit.Error(fmt.Errorf("this is the error message"), "This is an %s line", "error")
+    logit.DebugData("data as json", myTestItem)
+    logit.DebugDataFormated("data as json formated", myTestItem)
 }

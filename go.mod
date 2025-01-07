@@ -1,4 +1,4 @@
-module github.com/krakentech/logitv2
+module github.com/krakentech/logit
 
 go 1.23.0
 

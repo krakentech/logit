@@ -1,4 +1,4 @@
-package logitv2
+package logit
 
 import (
     "fmt"
