@@ -7,6 +7,17 @@ includes:
   app: ./.tasks/darwin/app.yml
 
 tasks:
+  publish:
+    desc: Will set the version and update the needed files and post a tag of the current version
+    vars:
+      CUR_VERSION:
+          sh: git describe --abbrev=0 --tags `git rev-list --tags --skip=0 --max-count=1`
+    cmds:
+      - |
+        echo "Current Version: {{.CUR_VERSION}}"
+
+    silent: true
+
   default:
     cmds:
       - task -l
