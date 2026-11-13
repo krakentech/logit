@@ -11,12 +11,15 @@ tasks:
     desc: Will set the version and update the needed files and post a tag of the current version
     vars:
       CUR_VERSION:
-          sh: git describe --abbrev=0 --tags `git rev-list --tags --skip=0 --max-count=1`
+          sh: git describe --abbrev=0 --tags `git rev-list --tags --skip=0 --max-count=1` | sed -e 's/^v//'
     cmds:
       - |
         echo "Current Version: {{.CUR_VERSION}}"
-
-    silent: true
+        read -p "Enter New Version: " NEW_VERSION
+        echo "New Version: $NEW_VERSION"
+        read -p "Press enter to continue or ctrl+c to cancel"
+        sed -i '' "s/{{.CUR_VERSION}}/${NEW_VERSION}/g" ./README.md
+    silent: false
 
   default:
     cmds:
