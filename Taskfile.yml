@@ -14,23 +14,23 @@ tasks:
           sh: git describe --abbrev=0 --tags `git rev-list --tags --skip=0 --max-count=1` | sed -e 's/^v//'
     cmds:
       - |
+        # Update README version                
         echo "Current Version: {{.CUR_VERSION}}"
         read -p "Enter New Version: " NEW_VERSION
         echo "New Version: $NEW_VERSION"
         read -p "Press enter to continue or ctrl+c to cancel"
         sed -i '' "s/{{.CUR_VERSION}}/${NEW_VERSION}/g" ./README.md
-      - |
+        # Update Coverage Badge
         go test ./... -covermode=count -coverprofile=coverage.out fmt
         go tool cover -func=coverage.out -o=coverage.out
         gobadge -filename=coverage.out
-      - |
+        # Update Repo
         git add .
         git commit -m "updated version and coverage for v${NEW_VERSION}"
         git push
-      - |
+        # Update Tag
         git tag v${NEW_VERSION}
         git push --tags
-
     silent: true
 
   default:
