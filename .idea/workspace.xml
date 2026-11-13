@@ -8,8 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ada387ac-f915-475a-8a48-a567bc4794b0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Logit (main).iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,40 +63,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "Go Build.go build github.com/krakentech/logit.executor": "Coverage",
-    "Go Test.TestDebug in github.com/krakentech/logit.executor": "Run",
-    "Go Test.TestSetDebug in github.com/krakentech/logit.executor": "Run",
-    "Go Test.Test_printLine in github.com/krakentech/logit.executor": "Run",
-    "Go Test.Test_replaceMessage in github.com/krakentech/logit.executor": "Coverage",
-    "Go Test.go test github.com/krakentech/logit.executor": "Coverage",
-    "Go Test.go test main.executor": "Coverage",
-    "Go Test.print_test.go.executor": "Coverage",
-    "Go Test.settings_test.go.executor": "Coverage",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.GoLinterPluginOnboarding": "true",
-    "RunOnceActivity.GoLinterPluginStorageMigration": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "copilot.chat.legacySessionMetadata.migrated": "true",
-    "git-widget-placeholder": "work",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Volumes/Code/kraken/logit/main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;Go Build.go build github.com/krakentech/logit.executor&quot;: &quot;Coverage&quot;,
+    &quot;Go Test.TestDebug in github.com/krakentech/logit.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestSetDebug in github.com/krakentech/logit.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.Test_printLine in github.com/krakentech/logit.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.Test_replaceMessage in github.com/krakentech/logit.executor&quot;: &quot;Coverage&quot;,
+    &quot;Go Test.go test github.com/krakentech/logit.executor&quot;: &quot;Coverage&quot;,
+    &quot;Go Test.go test main.executor&quot;: &quot;Coverage&quot;,
+    &quot;Go Test.print_test.go.executor&quot;: &quot;Coverage&quot;,
+    &quot;Go Test.settings_test.go.executor&quot;: &quot;Coverage&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.GoLinterPluginOnboarding&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.GoLinterPluginStorageMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/Code/kraken/logit/main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Go Test.go test main">
     <configuration name="go build github.com/krakentech/logit" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="main" />
+      <module name="Logit (main)" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <package value="github.com/krakentech/logit" />
@@ -102,7 +104,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Test_printLine in github.com/krakentech/logit" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="main" />
+      <module name="Logit (main)" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <package value="github.com/krakentech/logit" />
@@ -113,7 +115,7 @@
       <method v="2" />
     </configuration>
     <configuration name="go test github.com/krakentech/logit" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="main" />
+      <module name="Logit (main)" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <package value="github.com/krakentech/logit" />
@@ -123,7 +125,7 @@
       <method v="2" />
     </configuration>
     <configuration name="go test main" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="main" />
+      <module name="Logit (main)" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="DIRECTORY" />
       <package value="github.com/krakentech/logit" />
@@ -133,7 +135,7 @@
       <method v="2" />
     </configuration>
     <configuration name="settings_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="main" />
+      <module name="Logit (main)" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
