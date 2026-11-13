@@ -19,7 +19,19 @@ tasks:
         echo "New Version: $NEW_VERSION"
         read -p "Press enter to continue or ctrl+c to cancel"
         sed -i '' "s/{{.CUR_VERSION}}/${NEW_VERSION}/g" ./README.md
-    silent: false
+      - |
+        go test ./... -covermode=count -coverprofile=coverage.out fmt
+        go tool cover -func=coverage.out -o=coverage.out
+        gobadge -filename=coverage.out
+      - |
+        git add .
+        git commit -m "updated version and coverage for v{{.CUR_VERSION}}"
+        git push
+      - |
+        git tag v{{.CUR_VERSION}}
+        git push --tags
+
+    silent: true
 
   default:
     cmds:
